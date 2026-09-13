@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(180, 21%, 79%);
+}
+form{
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(71, 96%, 80%);
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    border: 30px hsl(342, 100%, 57%);
+    border-style: double;
+
+}
+h1{
+    color: hsl(197, 100%, 50%);
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.575);
+}
+#myNumber{
+    border-radius: 7px;
+    text-align: center;
+    font-size: 30px;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    
+}
+label:hover{
+    color: rgb(0, 238, 255);
+}
+button{
+    padding: 8px 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: hsl(103, 71%, 57%);
+    color: blueviolet;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(103, 55%, 47%);
+    padding: 10px 25px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
