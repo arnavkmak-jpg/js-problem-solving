@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("premium_photo-1664303991463-36449a65d3d6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#clock-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#clock{
+    font-weight: bold;
+    font-size: 4.5em;
+    color: azure;
+    backdrop-filter: blur(8px);
+    text-align: center;
+    background-color: hsla(0, 0%, 50%, 0.055);
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.205);
+    padding: 8px 40px;
+    border-radius: 12px;
+}
