@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(160, 70%, 78%);
+}
+#myHeading{
+    font-size: 50px;
+}
+#watch-container{
+    border: 4px solid;
+    padding: 5px 20px;
+    width: 400px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: hsl(54, 100%, 85%);
+    
+}
+#display{
+    font-family: monospace;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(65, 61, 61);
+}
+#controls{
+    text-align: center;
+    padding: 25px;
+}
+#start{
+    padding: 8px 30px;
+    margin-right: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(128, 92%, 41%);
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+#start:hover{
+    background-color: hsl(128, 98%, 22%);
+}
+#stop{
+    padding: 8px 30px;
+    margin-right: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(14, 92%, 41%);
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+#stop:hover{
+    background-color: hsl(14, 90%, 26%);
+}
+#reset{
+    padding: 8px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(219, 92%, 41%);
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: hsl(219, 90%, 21%);
+}
